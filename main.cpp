@@ -1,6 +1,14 @@
 #include <iostream>
+#include "STL.h"
 
-const int STACK_SIZE{ 10 };
+int main()
+{
+	CheckImage();
+}
+
+
+/*
+	const int STACK_SIZE{ 10 };
 
 enum Command
 {
@@ -109,3 +117,4 @@ void StackMessage(Stack& stack)
 		std::cout << stack.Array[i] << std::endl;
 	}
 }
+*/
