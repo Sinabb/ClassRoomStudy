@@ -3,7 +3,11 @@
 
 int main()
 {
+	//PrintVector2D();
+
 	CheckImage();
+
+	Letter();
 }
 
 
