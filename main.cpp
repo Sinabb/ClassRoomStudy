@@ -1,13 +1,8 @@
 #include <iostream>
-#include "STL.h"
 
 int main()
 {
-	//PrintVector2D();
-
-	CheckImage();
-
-	Letter();
+	
 }
 
 
@@ -120,5 +115,52 @@ void StackMessage(Stack& stack)
 	{
 		std::cout << stack.Array[i] << std::endl;
 	}
+}
+*/
+
+/*
+	bool DeleteMonster(MonsterList& list, const char* name)
+{
+    Monster* pPost = list.pHead;
+    Monster* p{};
+    Monster* pNext{};
+
+
+    if (FindMonster(list, name) == list.pHead)
+    {
+        pNext = pPost->pNext;
+        delete pPost;
+        list.pHead = pNext;
+
+        return true;
+    }
+    else if (FindMonster(list, name) != nullptr)
+    {
+        p = pPost->pNext;
+        pNext = p->pNext;
+
+        while (true)
+        {
+            if (FindMonster(list, name) == p)
+            {
+                delete p;
+                pPost->pNext = pNext;
+                if (pNext == nullptr)
+                {
+                    list.pTail = pPost;
+                }
+                return true;
+            }
+
+            pPost = pPost->pNext;
+            p = pPost->pNext;
+            pNext = p->pNext;
+        }
+
+    }
+    else
+    {
+        return false;
+    }
 }
 */
