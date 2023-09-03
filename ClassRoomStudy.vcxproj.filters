@@ -18,6 +18,9 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="AnimalStudy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="STL.h">
@@ -30,6 +33,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Class.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimalStudy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DogStudy.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

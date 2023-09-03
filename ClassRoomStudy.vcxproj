@@ -127,10 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AnimalStudy.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AnimalStudy.h" />
     <ClInclude Include="Class.h" />
+    <ClInclude Include="DogStudy.h" />
     <ClInclude Include="DoublcLinked.h" />
     <ClInclude Include="FileSystem.h" />
     <ClInclude Include="STL.h" />
