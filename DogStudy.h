@@ -1,21 +1,19 @@
 #pragma once
 #include "AnimalStudy.h"
-#include <iostream>
-
-class Dog : public Animal
+class DogStudy :public AnimalStudy
 {
 public:
 	enum Breed
 	{
-		Beagle,Doberman,Bernard
+		Beagle, Doberman, Bernard
 	};
 private:
 	Breed mBreed;
 public:
-	Dog();
-	~Dog();
+	DogStudy();
+	~DogStudy();
 
-	Dog::Breed GetBreed() const;
-	void SetBreed(Dog::Breed breed);
+	DogStudy::Breed GetBreed() const;
+	void SetBreed(DogStudy::Breed breed);
 	void Roll();
 };
