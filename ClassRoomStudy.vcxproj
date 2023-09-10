@@ -130,6 +130,7 @@
     <ClCompile Include="AnimalStudy.cpp" />
     <ClCompile Include="DogStudy.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AnimalStudy.h" />
@@ -137,6 +138,7 @@
     <ClInclude Include="DogStudy.h" />
     <ClInclude Include="DoublcLinked.h" />
     <ClInclude Include="FileSystem.h" />
+    <ClInclude Include="QuadTree.h" />
     <ClInclude Include="STL.h" />
     <ClInclude Include="Xmlstudy.h" />
   </ItemGroup>
