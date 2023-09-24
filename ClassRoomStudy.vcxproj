@@ -137,6 +137,7 @@
     <ClInclude Include="Class.h" />
     <ClInclude Include="DogStudy.h" />
     <ClInclude Include="DoublcLinked.h" />
+    <ClInclude Include="DynamicProgramming.h" />
     <ClInclude Include="FileSystem.h" />
     <ClInclude Include="QuadTree.h" />
     <ClInclude Include="STL.h" />
